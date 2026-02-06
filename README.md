@@ -2,7 +2,7 @@
 
 An Android application built with Jetpack Compose that displays user information using the [Random User API](https://randomuser.me/documentation). This app allows users to generate random user profiles based on custom filters and manage them with various actions.
 
-## 📱 Features
+##  Features
 
 ### Form Screen
 - **User Count Input**: Enter the number of records to generate (3-10)
@@ -29,7 +29,7 @@ An Android application built with Jetpack Compose that displays user information
 - **Saved Records Only**: View all saved records from all searches
 - **Query Results**: View the latest query results including reported and saved records
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
@@ -40,7 +40,7 @@ An Android application built with Jetpack Compose that displays user information
 - **Async Operations**: Kotlin Coroutines
 - **API**: [Random User API](https://randomuser.me/)
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 app/src/main/java/com/example/usersapicompose/
@@ -69,7 +69,7 @@ app/src/main/java/com/example/usersapicompose/
 └── MainActivity.kt                   # Main activity
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Android Studio Hedgehog | 2023.1.1 or newer
@@ -77,21 +77,7 @@ app/src/main/java/com/example/usersapicompose/
 - Target SDK: API 34 (Android 14)
 - Kotlin 1.9+
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ioanarafa/AndroidApp.git
-cd AndroidApp
-```
-
-2. Open the project in Android Studio
-
-3. Sync Gradle files
-
-4. Run the app on an emulator or physical device
-
-## 📖 Usage
+##  Usage
 
 1. **Launch the app** - You'll see the form screen
 2. **Fill in the form**:
@@ -107,7 +93,7 @@ cd AndroidApp
 6. **Navigate views**:
    - Use the AppBar menu to switch between Saved Records and Query Results
 
-## 📋 API Integration
+##  API Integration
 
 The app integrates with the Random User API with the following parameters:
 - `results`: Number of users to generate
@@ -130,7 +116,7 @@ https://randomuser.me/api/?results=5&nat=us,gb,fr&inc=gender,name,location,email
 - **Confirmation Dialogs**: Prevents accidental actions
 - **Error Handling**: User-friendly error messages
 
-## 🔄 State Management
+##  State Management
 
 The app maintains different states:
 - **Form State**: Current form inputs and validation errors
@@ -138,29 +124,13 @@ The app maintains different states:
 - **Results State**: Current query results with user actions
 - **Saved Records State**: Persistent list of saved users across sessions
 
-## 📝 Validation Rules
+##  Validation Rules
 
 - **Record Count**: Must be between 3 and 10
 - **Nationalities**: At least 2 must be selected
 - **Information Types**: At least 3 must be selected
 - **Photo**: Must be selected (mandatory)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is created as part of an academic exercise.
-
-## 👤 Author
-
-**Ioana Rafa**
-- GitHub: [@ioanarafa](https://github.com/ioanarafa)
-
-## 🙏 Acknowledgments
-
-- [Random User API](https://randomuser.me/) for providing the user data
 - Android Jetpack Compose team for the amazing UI framework
 
 ---
